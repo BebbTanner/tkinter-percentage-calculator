@@ -23,6 +23,7 @@ root.config(bg="#a9a9a9")
 navbar = tk.Frame(root, bg = "#2c3e50", height = 50)
 navbar.pack(side = "top", fill = "x")
 navbar.pack_propagate(False)
+
 navContainer = tk.Frame(navbar, bg = "#2c3e50")
 navContainer.pack(expand = True, fill = "y")
 
