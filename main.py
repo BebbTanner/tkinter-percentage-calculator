@@ -23,7 +23,7 @@ def percentage():
 
     userX = float(xLabel.get())
     userY = float(yLabel.get())
-    result = userX / userY
+    result = (userX / userY) * 100
 
     resultLabel.config(text=f"Result = {result}%")
 
