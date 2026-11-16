@@ -37,9 +37,6 @@ def percentage():
 
 # Labels
 
-xLabel = tk.Entry(root, width=10)
-xLabel.pack(padx=10, pady=10)
-
 yLabel = tk.Entry(root, width=10)
 yLabel.pack(padx=10, pady=10)
 
@@ -48,10 +45,10 @@ resultLabel.pack(padx=10, pady=10)
 
 # Buttons
 
-calculateButton = ctk.CTkEntry(
+xLabel = ctk.CTkEntry(
     navbar,
 )
-calculateButton.pack(side="left", padx=10, pady=10)
+xLabel.pack(side="left", padx=10, pady=10)
 
 calculateButton = ctk.CTkButton(
     navbar, text="Calculate",
