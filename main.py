@@ -7,6 +7,7 @@
 '''
 
 import tkinter as tk
+import customtkinter as ctk
 from tkinter import *
 
 # UI setup
@@ -48,7 +49,14 @@ yLabel.pack(padx=10, pady=10)
 
 # Buttons
 
-calculateButton = tk.Button(navbar, text="Calculate", command= percentage)
+calculateButton = ctk.CTkButton(
+    navbar, text="Calculate",
+    command= percentage,
+    fg_color="#2b8a3e",
+    corner_radius=32,
+    hover_color="#237032"
+)
+
 calculateButton.pack(padx=10, pady=10)
 
 # Main loop
