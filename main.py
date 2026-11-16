@@ -16,7 +16,15 @@ root.config(bg="#a9a9a9")
 # Functions
 
 def percentage():
-    print()
+    '''
+        Percentage = x / y
+        The round to the nearest two decimal places
+    '''
+
+    userX = xLabel.get()
+    userY = yLabel.get()
+    print(f"x = {userX}")
+    print(f"y = {userY}")
 
 # Styling
 
