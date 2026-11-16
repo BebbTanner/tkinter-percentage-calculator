@@ -50,7 +50,6 @@ resultLabel.pack(padx=10, pady=10)
 
 calculateButton = ctk.CTkEntry(
     navbar,
-    corner_radius=32,
 )
 calculateButton.pack(side="left", padx=10, pady=10)
 
