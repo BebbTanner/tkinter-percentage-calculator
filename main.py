@@ -43,17 +43,17 @@ resultLabel.pack(padx=10, pady=10)
 # Buttons
 
 xLabel = ctk.CTkEntry(
-    navbar,
+    navContainer,
 )
 xLabel.pack(side="left", padx=10, pady=10)
 
 yLabel = ctk.CTkEntry(
-    navbar,
+    navContainer,
 )
 yLabel.pack(side="left", padx=10, pady=10)
 
 calculate = ctk.CTkButton(    
-    navbar, 
+    navContainer, 
     text="Calculate",
     command= percentage,
     fg_color="#2b8a3e",
