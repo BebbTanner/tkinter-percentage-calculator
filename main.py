@@ -57,7 +57,6 @@ calculate = ctk.CTkButton(
     text="Calculate",
     command= percentage,
     fg_color="#2b8a3e",
-    corner_radius=32,
     hover_color="#237032")
 calculate.pack(side="left", padx=10, pady=10)
 
