@@ -1,6 +1,9 @@
 '''
     For this I just want to create a simple percentage calculator.
     I will then take this and use it in my rock paper scissors program.
+
+    This now does what I want it to do.
+    I now need to figure out how to implement this with the rock, paper, scissors program.
 '''
 
 import tkinter as tk
@@ -16,11 +19,6 @@ root.config(bg="#a9a9a9")
 # Functions
 
 def percentage():
-    '''
-        Percentage = x / y
-        The round to the nearest two decimal places
-    '''
-
     userX = float(xLabel.get())
     userY = float(yLabel.get())
     result = (userX / userY) * 100
