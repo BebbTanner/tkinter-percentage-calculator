@@ -33,11 +33,11 @@ def percentage():
     userY = float(yLabel.get())
     result = (userX / userY) * 100
 
-    resultLabel.config(text=f"Result = {result:.2f}%")
+    resultLabel.configure(text=f"Result = {result:.2f}%")
 
 # Labels
 
-resultLabel = tk.Label(root, text="Your percentage is: ")
+resultLabel = ctk.CTkLabel(root, text="Result: ", text_color="black" )
 resultLabel.pack(padx=10, pady=10)
 
 # Buttons
