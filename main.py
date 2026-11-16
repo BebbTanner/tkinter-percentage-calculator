@@ -25,7 +25,13 @@ def percentage():
     userY = yLabel.get()
     print(f"x = {userX}")
     print(f"y = {userY}")
-    print(userX / userY)
+
+    x = tk.IntVar(userX)
+    y = tk.IntVar(userY)
+
+    result = x / y
+
+    print(result)
 
 # Styling
 
