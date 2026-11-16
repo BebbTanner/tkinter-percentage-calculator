@@ -48,17 +48,14 @@ resultLabel.pack(padx=10, pady=10)
 
 # Buttons
 
-calculateButton = ctk.CTkButton(
-    navbar, text="Calculate",
-    command= percentage,
-    fg_color="#2b8a3e",
+calculateButton = ctk.CTkEntry(
+    navbar,
     corner_radius=32,
-    hover_color="#237032"
 )
 calculateButton.pack(side="left", padx=10, pady=10)
 
 calculateButton = ctk.CTkButton(
-    navbar, text="Calculate 2",
+    navbar, text="Calculate",
     command= percentage,
     fg_color="#2b8a3e",
     corner_radius=32,
