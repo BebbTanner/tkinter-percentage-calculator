@@ -5,6 +5,7 @@
     This now does what I want it to do.
     I now need to figure out how to implement this with the rock, paper, scissors program.
 '''
+# Libraries
 
 import tkinter as tk
 import customtkinter as ctk
@@ -34,18 +35,16 @@ def percentage():
 
     resultLabel.config(text=f"Result = {result:.2f}%")
 
-# Styling
-
 # Labels
-
-resultLabel = tk.Label(root, text="Your percentage is: ")
-resultLabel.pack(padx=10, pady=10)
 
 xLabel = tk.Entry(root, width=10)
 xLabel.pack(padx=10, pady=10)
 
 yLabel = tk.Entry(root, width=10)
 yLabel.pack(padx=10, pady=10)
+
+resultLabel = tk.Label(root, text="Your percentage is: ")
+resultLabel.pack(padx=10, pady=10)
 
 # Buttons
 
