@@ -23,12 +23,9 @@ def percentage():
 
     userX = float(xLabel.get())
     userY = float(yLabel.get())
-    print(f"x = {userX}")
-    print(f"y = {userY}")
-
     result = userX / userY
 
-    print(result)
+    resultLabel.config(text=f"Result = {result}%")
 
 # Styling
 
