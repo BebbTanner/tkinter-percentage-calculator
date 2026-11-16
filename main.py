@@ -37,9 +37,6 @@ def percentage():
 
 # Labels
 
-yLabel = tk.Entry(root, width=10)
-yLabel.pack(padx=10, pady=10)
-
 resultLabel = tk.Label(root, text="Your percentage is: ")
 resultLabel.pack(padx=10, pady=10)
 
@@ -50,15 +47,19 @@ xLabel = ctk.CTkEntry(
 )
 xLabel.pack(side="left", padx=10, pady=10)
 
-calculateButton = ctk.CTkButton(
-    navbar, text="Calculate",
+yLabel = ctk.CTkEntry(
+    navbar,
+)
+yLabel.pack(side="left", padx=10, pady=10)
+
+calculate = ctk.CTkButton(    
+    navbar, 
+    text="Calculate",
     command= percentage,
     fg_color="#2b8a3e",
     corner_radius=32,
-    hover_color="#237032"
-)
-calculateButton.pack(side="left", padx=10, pady=10)
-
+    hover_color="#237032")
+calculate.pack(side="left", padx=10, pady=10)
 
 # Main loop
 
