@@ -43,7 +43,6 @@ yLabel.pack(padx=10, pady=10)
 calculateButton = tk.Button(root, text="Calculate", command= percentage)
 calculateButton.pack(padx=10, pady=10)
 
-
 # Main loop
 
 root.mainloop()
