@@ -55,8 +55,17 @@ calculateButton = ctk.CTkButton(
     corner_radius=32,
     hover_color="#237032"
 )
+calculateButton.pack(side="left", padx=10, pady=10)
 
-calculateButton.pack(padx=10, pady=10)
+calculateButton = ctk.CTkButton(
+    navbar, text="Calculate 2",
+    command= percentage,
+    fg_color="#2b8a3e",
+    corner_radius=32,
+    hover_color="#237032"
+)
+calculateButton.pack(side="left", padx=10, pady=10)
+
 
 # Main loop
 
