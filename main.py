@@ -27,6 +27,9 @@ calculateButton.pack(padx=10, pady=10)
 
 # Labels
 
+resultLabel = tk.Label(root, text="Your percentage is: ")
+resultLabel.pack(padx=10, pady=10)
+
 # Main loop
 
 root.mainloop()
