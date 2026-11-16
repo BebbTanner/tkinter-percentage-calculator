@@ -21,15 +21,12 @@ def percentage():
         The round to the nearest two decimal places
     '''
 
-    userX = xLabel.get()
-    userY = yLabel.get()
+    userX = float(xLabel.get())
+    userY = float(yLabel.get())
     print(f"x = {userX}")
     print(f"y = {userY}")
 
-    x = tk.IntVar(userX)
-    y = tk.IntVar(userY)
-
-    result = x / y
+    result = userX / userY
 
     print(result)
 
