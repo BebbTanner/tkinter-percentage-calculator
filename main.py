@@ -13,7 +13,7 @@ from tkinter import *
 
 # UI setup
 
-root = tk.Tk()
+root = ctk.CTk()
 root.title("Percentages")
 root.geometry("500x400")
 root.config(bg="#a9a9a9")
@@ -38,7 +38,7 @@ def percentage():
 
 # Labels
 
-resultLabel = ctk.CTkLabel(root, text="Result: ", text_color="black" )
+resultLabel = ctk.CTkLabel(root, text="Result: ", fg_color="#a9a9a9", text_color="black")
 resultLabel.pack(padx=10, pady=10)
 
 # Buttons
