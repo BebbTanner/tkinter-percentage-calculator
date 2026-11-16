@@ -25,6 +25,7 @@ def percentage():
     userY = yLabel.get()
     print(f"x = {userX}")
     print(f"y = {userY}")
+    print(userX / userY)
 
 # Styling
 
