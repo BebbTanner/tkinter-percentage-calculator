@@ -20,12 +20,10 @@ def percentage():
 
 # Styling
 
-# Buttons
-
-calculateButton = tk.Button(root, text="Calculate", command= percentage)
-calculateButton.pack(padx=10, pady=10)
-
 # Labels
+
+resultLabel = tk.Label(root, text="Your percentage is: ")
+resultLabel.pack(padx=10, pady=10)
 
 xLabel = tk.Entry(root, width=10)
 xLabel.pack(padx=10, pady=10)
@@ -33,8 +31,11 @@ xLabel.pack(padx=10, pady=10)
 yLabel = tk.Entry(root, width=10)
 yLabel.pack(padx=10, pady=10)
 
-resultLabel = tk.Label(root, text="Your percentage is: ")
-resultLabel.pack(padx=10, pady=10)
+# Buttons
+
+calculateButton = tk.Button(root, text="Calculate", command= percentage)
+calculateButton.pack(padx=10, pady=10)
+
 
 # Main loop
 
