@@ -18,6 +18,15 @@ root.config(bg="#a9a9a9")
 def percentage():
     print()
 
+# Styling
+
+# Buttons
+
+calculateButton = tk.Button(root, text="Calculate", command= percentage)
+calculateButton.pack(padx=10, pady=10)
+
+# Labels
+
 # Main loop
 
 root.mainloop()
